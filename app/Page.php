@@ -20,12 +20,26 @@ class Page
                 <title><?=$title?></title>
             </head>
             <body>
-                <h1>Hello, world!</h1>
         <?php
     }
     public static function displayNavigation()
     {
-
+        ?>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        <?php
     }
     public static function displayFooter()
     {
