@@ -14,5 +14,4 @@ switch ($_SERVER['HTTP_HOST'])
         header("Location:https://" . ROOT_LANDING_URL);
         break;
 }
-print_r($_SERVER['HTTP_HOST']);
-print_r($_SERVER['REQUEST_URI']);
+
