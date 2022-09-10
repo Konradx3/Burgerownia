@@ -26,10 +26,14 @@ class Dashboard
             case "/":
                 $this->showDashboard();
             break;
+            case "/onas":
+                require ("app/views/onas.view.php");
+                break;
         }
     }
     public function showDashboard()
     {
         require ("app/views/dashboard.view.php");
     }
+
 }
