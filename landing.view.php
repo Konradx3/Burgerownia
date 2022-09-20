@@ -1,6 +1,6 @@
 <?php
 
-\Templates\Page::displayHeader("Landing Page");
+\Templates\Page::displayHeader("Home");
 ?>
     <div class="hero_area">
         <div class="bg-box">
@@ -20,13 +20,12 @@
                                 Najlepsze burgery w okolicy. Kraftowe, własnoręcznie robione mięso, świeże warzywa i dodatki pomiędzy dwoma kawałkami złocistej bułki idealnie komponującie się w całość. Przyjdź i przekonaj się sam.
                             </p>
                             <div class="btn-box">
-                                <a href="https://<?=ROOT_APP_URL?>/zamowienie" class="btn1">Zamów teraz</a>
+                                <a href="https://<?=ROOT_LANDING_URL?>/zamowienie" class="btn1">Zamów teraz</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
         <!-- end slider section -->
     </div>
@@ -351,7 +350,7 @@
                         <p>
                             Opis restauracji / fast food jest bardzo ważny. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                         </p>
-                        <a href="http://<?=ROOT_APP_URL?>/onas">
+                        <a href="http://<?=ROOT_LANDING_URL?>/onas">
                             Czytaj więcej
                         </a>
                     </div>

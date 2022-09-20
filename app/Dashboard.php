@@ -23,12 +23,20 @@ class Dashboard
         $this->get = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
         switch ($this->request)
         {
-            case "/":
+            case "/dashboard":
                 $this->showDashboard();
-            break;
+                break;
             case "/onas":
                 require ("app/views/onas.view.php");
                 break;
+            case "/menu":
+                require ("app/views/menu.view.php");
+                break;
+            case "/zamowienie":
+                require ("app/views/zamowienie.view.php");
+                break;
+            default:
+                require ("landing.view.php");
         }
     }
     public function showDashboard()

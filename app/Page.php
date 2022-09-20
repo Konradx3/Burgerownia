@@ -54,17 +54,17 @@ class Page
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  mx-auto ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="https://<?=ROOT_LANDING_URL?>">Home <span class="sr-only"></span></a>
+                                <a class="nav-link" href="https://<?=ROOT_LANDING_URL?>">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://<?=ROOT_APP_URL?>/menu">Menu</a>
+                                <a class="nav-link" href="https://<?=ROOT_LANDING_URL?>/menu">Menu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://<?=ROOT_APP_URL?>/onas">O Nas</a>
+                                <a class="nav-link" href="https://<?=ROOT_LANDING_URL?>/onas">O Nas</a>
                             </li>
                         </ul>
                         <div class="user_option">
-                            <a href="https://<?=ROOT_APP_URL?>/zamowienie" class="order_online">Zamów online</a>
+                            <a href="https://<?=ROOT_LANDING_URL?>/zamowienie" class="order_online">Zamów online</a>
                         </div>
                     </div>
                 </nav>
